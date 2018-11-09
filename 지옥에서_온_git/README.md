@@ -54,9 +54,18 @@ git config --global user.email yoojh9@gmail.com
 
 ### 2.4 stash
 - 브랜치에서 작업을 하다가 작업이 끝나지 않아서 커밋을 하기 어려운데, 다른 브랜치에서 작업을 해야할 경우 stash를 이용한다.
+- 버전 관리가 되고 있는 파일만 가능하다.
 - 예를 들어 exp 브랜치에서 f1.txt를 수정하고 커밋하지 않은 상태로 master 브랜치로 checkout 하면 f1.txt의 수정사항을 볼 수 있다.
 - 하지만 stash를 이용하면 작업했던 내역을 숨겨 저장할 수 있으므로 master로 checkout 하더라도 영향이 없다.
 - git stash : 임시 작업공간에 저장
 - git stash apply : 임시 작업공간에 저장했던 것을 불러옴
 - git stash list : stash list를 조회
 - git stash drop : list 가장 상단의 stash를 지움
+- git stash pop : git stash apply + git stash drop
+
+
+<br><br>
+
+## 3. git의 원리
+### 3.1 reset checkout
+- git reflog : commit과 head 정보들을 알 수 있음.
