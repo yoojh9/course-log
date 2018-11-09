@@ -58,3 +58,5 @@ git config --global user.email yoojh9@gmail.com
 - 하지만 stash를 이용하면 작업했던 내역을 숨겨 저장할 수 있으므로 master로 checkout 하더라도 영향이 없다.
 - git stash : 임시 작업공간에 저장
 - git stash apply : 임시 작업공간에 저장했던 것을 불러옴
+- git stash list : stash list를 조회
+- git stash drop : list 가장 상단의 stash를 지움
