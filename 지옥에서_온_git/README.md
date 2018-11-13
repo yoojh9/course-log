@@ -69,3 +69,6 @@ git config --global user.email yoojh9@gmail.com
 ## 3. git의 원리
 ### 3.1 reset checkout
 - git reflog : commit과 head 정보들을 알 수 있음.
+
+### 3.2 git reset
+![alt text](git_reset.png)
