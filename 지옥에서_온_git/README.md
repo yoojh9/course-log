@@ -75,4 +75,4 @@ git config --global user.email yoojh9@gmail.com
 
 
 ### 3.3 3 way merge
-![3-way-merge 이미지 \(생활코딩참고\)](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/2676/5133.png)
+![3-way-merge 이미지 -생활 코딩 참고](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/2676/5133.png)
