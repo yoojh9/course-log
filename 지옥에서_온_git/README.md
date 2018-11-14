@@ -72,3 +72,7 @@ git config --global user.email yoojh9@gmail.com
 
 ### 3.2 git reset
 ![alt text](git_reset.png)
+
+
+### 3.3 3 way merge
+![3-way-merge 이미지 \(생활코딩참고\)](https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/2676/5133.png)
